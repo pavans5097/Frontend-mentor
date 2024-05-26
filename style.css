@@ -7,7 +7,8 @@ body{
     align-items: center;
     min-height: 100vh;
 }
-main{
+
+main {
     display: flex;
     justify-content: center;
     align-items: center;
