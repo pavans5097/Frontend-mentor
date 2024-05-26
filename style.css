@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(217 223 238) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper{
+    box-sizing: border-box;
+    width: 22.5%;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 1.2rem;
+    box-shadow: 0px 0px 8px 3px rgb(236, 236, 236);
+    transition:all 150ms linear 50ms;
+    max-height: 95vh;
+    /* position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-45%); */
+}
+
+.wrapper img{
+    width: 95%;
+    border-radius: 0.9rem;
+    filter: grayscale();
+    transition:all 150ms linear 50ms;
+}
+.text{
+    margin: 1.9% auto;
+    width: 94%;
+    
+}
+.text span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(97, 97, 118);
+    transition:all 150ms linear 50ms;
+}
+
+.text p{
+    margin: 1.2rem auto;
+    font-size: 0.99999rem;
+    color: rgb(183, 177, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 94%;
+    transition:all 150ms linear 50ms;
+
+    
+    
+}
+
+.wrapper:hover {
+    width: 23%;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 7px rgb(199, 195, 195);
+}
+
+.wrapper:hover .text span {
+    font-size: 1.5344rem;
+    width: 96%;
+    color: rgb(29, 29, 108);
+}
+
+.wrapper:hover img {
+    filter: none;
+}
+
+.wrapper:hover .text p {
+    color: rgb(118, 113, 113);
+    font-size: 1rem;
+}
+
+
+
+
+@media  (min-width:1800px){
+    .wrapper{
+        max-width:450px;
+        
+
+    }
+    .wrapper:hover{
+        max-width:470px ;
+    }
+    
+}
+
+@media (max-width:1200px){
+  
+    .wrapper{
+        width: 29%;
+        
+    }
+    .wrapper:hover{
+        width: 30%;
+        .text span{
+            font-size: 1.2rem;
+        }
+    }
+    .text{
+        max-width: 96%;
+    }
+    .text span{
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media (max-width:800px){
+    .wrapper{
+        width: 45%;
+
+    }
+    .text{
+        width: 96%;
+    }
+    .text p{
+        font-size: 0.7999999;
+    }
+    .wrapper:hover{
+        width: 46%;
+       
+        .text span{
+            font-size: 1.135599rem;
+        }
+       
+    }
+}
+@media (max-width:500px){
+    .wrapper{
+        width: 75%;
+    }
+    .wrapper:hover{
+        width: 76%;
+    }
+
+}
