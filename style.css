@@ -8,12 +8,7 @@ body{
     min-height: 100vh;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
+
 h1{
     display: none;
 }
