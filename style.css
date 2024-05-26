@@ -7,13 +7,18 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+main{
+  
+    min-width: 100%;
 
+}
 
 h1{
     display: none;
 }
 
 .wrapper{
+    margin:auto;
     box-sizing: border-box;
     width: 22.5%;
     text-align: center;
